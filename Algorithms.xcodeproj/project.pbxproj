@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3570402A2B4D64A1004774F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040292B4D64A1004774F2 /* main.cpp */; };
+		3570403D2B4D6E30004774F2 /* Euclid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3570403C2B4D6E30004774F2 /* Euclid.cpp */; };
+		3570403F2B4D7354004774F2 /* DayOfWeek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3570403E2B4D7354004774F2 /* DayOfWeek.cpp */; };
+		357040412B4D7C83004774F2 /* Greetings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040402B4D7C83004774F2 /* Greetings.cpp */; };
+		357040442B4D9433004774F2 /* Eratosthen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040432B4D9433004774F2 /* Eratosthen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,12 @@
 /* Begin PBXFileReference section */
 		357040262B4D64A1004774F2 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		357040292B4D64A1004774F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3570403A2B4D6E16004774F2 /* Algoritms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algoritms.h; sourceTree = "<group>"; };
+		3570403C2B4D6E30004774F2 /* Euclid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Euclid.cpp; sourceTree = "<group>"; };
+		3570403E2B4D7354004774F2 /* DayOfWeek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DayOfWeek.cpp; sourceTree = "<group>"; };
+		357040402B4D7C83004774F2 /* Greetings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greetings.cpp; sourceTree = "<group>"; };
+		357040422B4D7D29004774F2 /* Greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greetings.h; sourceTree = "<group>"; };
+		357040432B4D9433004774F2 /* Eratosthen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Eratosthen.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,31 @@
 		357040282B4D64A1004774F2 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				357040452B4DA145004774F2 /* Greetings */,
 				357040292B4D64A1004774F2 /* main.cpp */,
+				357040362B4D6B9A004774F2 /* Materials */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		357040362B4D6B9A004774F2 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				3570403A2B4D6E16004774F2 /* Algoritms.h */,
+				3570403C2B4D6E30004774F2 /* Euclid.cpp */,
+				3570403E2B4D7354004774F2 /* DayOfWeek.cpp */,
+				357040432B4D9433004774F2 /* Eratosthen.cpp */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		357040452B4DA145004774F2 /* Greetings */ = {
+			isa = PBXGroup;
+			children = (
+				357040402B4D7C83004774F2 /* Greetings.cpp */,
+				357040422B4D7D29004774F2 /* Greetings.h */,
+			);
+			path = Greetings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3570403F2B4D7354004774F2 /* DayOfWeek.cpp in Sources */,
 				3570402A2B4D64A1004774F2 /* main.cpp in Sources */,
+				357040412B4D7C83004774F2 /* Greetings.cpp in Sources */,
+				357040442B4D9433004774F2 /* Eratosthen.cpp in Sources */,
+				3570403D2B4D6E30004774F2 /* Euclid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
