@@ -10,7 +10,7 @@
 
 int Greetings() {
 	
-	std::vector <std::string> ProgNum {"Euclid", "DayOfWeek", "Eratosthen"};
+	std::vector <std::string> ProgNum {"Euclid", "DayOfWeek", "Eratosthen", "Integral", "Length"};
 
 	std::cout << "ˇ  Что следует выполнить...\n";
 	

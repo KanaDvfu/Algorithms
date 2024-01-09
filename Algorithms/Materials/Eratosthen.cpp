@@ -7,7 +7,6 @@
 
 #include "Algoritms.h"
 #include <iostream>
-#include <cmath>
 
 int Eratosthen(int x) {
 	int *array = new int[x + 1];
@@ -16,7 +15,7 @@ int Eratosthen(int x) {
 	for (int p = 2; p < x + 1; p++) {
 		if (array[p] != 0) {
 			std::cout << array[p] << std::endl;
-			for (int j = pow(p, 2); j < x + 1; j += p)
+			for (int j = p * p; j < x + 1; j += p)
 				array[j] = 0;
 		}
 	}
@@ -26,8 +25,8 @@ int Eratosthen(int x) {
 
 void Eratosthen() {
 	std::cout << std::endl;
-	std::cout << "Решето Эратосфена\n";
-	std::cout << "Расчет всех простых чисел до заданного\n";
+	std::cout << "Решето Эратосфена.\n";
+	std::cout << "Расчет всех простых чисел до заданного.\n";
 	std::cout << "Введите число...\n";
 	int x;
 	std::cin >> x;

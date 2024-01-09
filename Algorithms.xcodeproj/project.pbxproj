@@ -12,6 +12,9 @@
 		3570403F2B4D7354004774F2 /* DayOfWeek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3570403E2B4D7354004774F2 /* DayOfWeek.cpp */; };
 		357040412B4D7C83004774F2 /* Greetings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040402B4D7C83004774F2 /* Greetings.cpp */; };
 		357040442B4D9433004774F2 /* Eratosthen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040432B4D9433004774F2 /* Eratosthen.cpp */; };
+		357040472B4DABD2004774F2 /* Integral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040462B4DABD2004774F2 /* Integral.cpp */; };
+		3570404F2B4DBE3E004774F2 /* Length.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3570404E2B4DBE3E004774F2 /* Length.cpp */; };
+		357040542B4DBFB3004774F2 /* SomeFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357040522B4DBFB3004774F2 /* SomeFunc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,10 @@
 		357040402B4D7C83004774F2 /* Greetings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greetings.cpp; sourceTree = "<group>"; };
 		357040422B4D7D29004774F2 /* Greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greetings.h; sourceTree = "<group>"; };
 		357040432B4D9433004774F2 /* Eratosthen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Eratosthen.cpp; sourceTree = "<group>"; };
+		357040462B4DABD2004774F2 /* Integral.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Integral.cpp; sourceTree = "<group>"; };
+		3570404E2B4DBE3E004774F2 /* Length.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Length.cpp; sourceTree = "<group>"; };
+		357040522B4DBFB3004774F2 /* SomeFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SomeFunc.cpp; sourceTree = "<group>"; };
+		357040532B4DBFB3004774F2 /* SomeFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SomeFunc.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +74,9 @@
 		357040282B4D64A1004774F2 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				357040452B4DA145004774F2 /* Greetings */,
 				357040292B4D64A1004774F2 /* main.cpp */,
+				357040452B4DA145004774F2 /* Greetings */,
+				357040552B4DBFBD004774F2 /* SomeFunc */,
 				357040362B4D6B9A004774F2 /* Materials */,
 			);
 			path = Algorithms;
@@ -81,6 +89,8 @@
 				3570403C2B4D6E30004774F2 /* Euclid.cpp */,
 				3570403E2B4D7354004774F2 /* DayOfWeek.cpp */,
 				357040432B4D9433004774F2 /* Eratosthen.cpp */,
+				357040462B4DABD2004774F2 /* Integral.cpp */,
+				3570404E2B4DBE3E004774F2 /* Length.cpp */,
 			);
 			path = Materials;
 			sourceTree = "<group>";
@@ -92,6 +102,15 @@
 				357040422B4D7D29004774F2 /* Greetings.h */,
 			);
 			path = Greetings;
+			sourceTree = "<group>";
+		};
+		357040552B4DBFBD004774F2 /* SomeFunc */ = {
+			isa = PBXGroup;
+			children = (
+				357040522B4DBFB3004774F2 /* SomeFunc.cpp */,
+				357040532B4DBFB3004774F2 /* SomeFunc.hpp */,
+			);
+			path = SomeFunc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +174,10 @@
 				3570402A2B4D64A1004774F2 /* main.cpp in Sources */,
 				357040412B4D7C83004774F2 /* Greetings.cpp in Sources */,
 				357040442B4D9433004774F2 /* Eratosthen.cpp in Sources */,
+				3570404F2B4DBE3E004774F2 /* Length.cpp in Sources */,
+				357040542B4DBFB3004774F2 /* SomeFunc.cpp in Sources */,
 				3570403D2B4D6E30004774F2 /* Euclid.cpp in Sources */,
+				357040472B4DABD2004774F2 /* Integral.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
